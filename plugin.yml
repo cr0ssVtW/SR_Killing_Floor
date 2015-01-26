@@ -1,0 +1,42 @@
+name: SR Killing Floor
+main: sr.SRKF
+version: 0.4.0
+author: cr0ssVtW
+depend: [WorldGuard, WorldEdit]
+commands:
+   srkf:
+      description: SRKF admin command
+      usage: /srkf [option]
+   autoreload:
+      description: SRKF auto reload toggle
+      usage: /autoreload
+   perk:
+      description: Choose your perks
+      usage: /perk
+   skip:
+      description: Vote to skip a round
+      usage: /skip
+   perks:
+      description: Choose your perks
+      usage: /perks   
+   role:
+      description: Choose your role
+      usage: /role
+   class:
+      description: Choose your role
+      usage: /role
+   roles:
+      description: Choose your role
+      usage: /roles
+   roleinfo:
+      description: Get more detailed info on a role
+      usage: /roleinfo
+   exit:
+      description: Leave the game and enter Lobby
+      usage: /exit
+   quit:
+      description: Leave the game and enter Lobby
+      usage: /quit
+   leave:
+      description: Leave the game and enter Lobby
+      usage: /leave
